@@ -1,0 +1,10 @@
+{
+    "cmake.sourceDirectory": "/mnt/e/Documents/Code/VS Code Projects/NoC-Pin-Accurate-Performance-Model",
+    "C_Cpp.errorSquiggles": "enabled",
+    "cmake.cmakePath": "/usr/bin/cmake",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "files.associations": {
+        "ratio": "cpp",
+        "iostream": "cpp"
+    }
+}

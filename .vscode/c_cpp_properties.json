@@ -1,0 +1,30 @@
+{
+    "env": {
+        "SYSTEMC_PATH": "../../mnt/e/Documents/Code/systemc-3.0.1"
+    },
+    "configurations": [
+        {
+            "name": "systemc",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/include",
+                    "/mnt/e/Documents/Code/systemc-3.0.1/src",
+                    "/mnt/e/Documents/Code/systemc-3.0.1/include"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include/**",
+		        "/mnt/e/Documents/Code/systemc-3.0.1/src/**",
+                "/mnt/e/Documents/Code/systemc-3.0.1/include/**"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
