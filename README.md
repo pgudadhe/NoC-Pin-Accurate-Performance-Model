@@ -4,9 +4,15 @@
 
 This project demonstrates a pin-accurate 4x4 NoC (Network on chip) with mesh topology. Following diagram illustrates a typical mesh topology where nodes are arranged in a rectangular fashion (typically a square). Each node on the NoC is a Processing Element (PE). A PE is basically a chiplet. It could be a CPU core, Memory Controller, Accelerators, etc. These PEs are connected to each other using routers. Routers job is to transmit packets from source node to the destination node across this mesh. Routers take care of sending the packet on correct port as per the destination. There are many routing algorithms that can be used to enhance the design. 
 
+![micromachines-14-00501-g003-550](https://github.com/user-attachments/assets/67f5b1b5-5a66-4cbd-a9d2-b1b17f314c4c)
+
 A packet is split into multiple chunks called Flits. First flit is called head flit, followed by payload flits and tail flit as shown below.
 
+<img width="1022" height="231" alt="flit" src="https://github.com/user-attachments/assets/2fe41196-ac46-44e7-aec5-124360699c26" />
+
 Routers are connected to 4 other routers in 4 directions as North, East, South and West. The 5th connection of the router is with its home node (Local node). 
+
+<img width="577" height="490" alt="NoC-router-architecture" src="https://github.com/user-attachments/assets/97d0da59-2729-4478-974e-e615ff4ae8d9" />
 
 
 ## Building this project
